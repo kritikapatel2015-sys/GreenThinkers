@@ -1,8 +1,9 @@
-streamlit==1.26.0
-torch==2.1.0+cpu
-torchvision==0.16.1+cpu
-numpy==1.25.0
-pillow==10.0.1
-gtts==2.3.2
-pyttsx3==2.90
-opencv-python==4.8.1.78
+streamlit==1.50.0
+pillow==11.3.0
+numpy==2.3.4
+gtts==2.5.4
+pyttsx3==2.99
+torch==2.9.0
+torchvision==0.16.0
+transformers==4.32.0
+diffusers==0.21.0
