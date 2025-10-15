@@ -1,5 +1,6 @@
-streamlit
-pillow
-numpy
-gtts
-pyttsx3
+streamlit==1.26.0
+pillow==10.0.1
+numpy==1.25.0
+gtts==2.3.2
+pyttsx3==2.90
+torch==2.1.0+cpu
