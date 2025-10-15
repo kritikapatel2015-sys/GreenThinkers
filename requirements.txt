@@ -1,15 +1,21 @@
-
+# Streamlit and basic dependencies
 streamlit==1.50.0
-torch==2.9.0+cpu
-torchvision==0.16.0+cpu
-numpy==2.3.4
-pillow==11.3.0
-gtts==2.5.4
-pyttsx3==2.99
-pandas==2.3.3
-requests==2.32.5
-rich==14.2.0
-markdown-it-py==4.0.0
-mdurl==0.1.2
-pygments==2.19.2
+Pillow==10.0.0
 
+# PyTorch CPU version (no +cpu)
+torch==2.9.0
+torchvision==0.15.2
+
+# AI model dependencies
+transformers==4.44.2
+diffusers==0.18.0
+openai==0.27.0
+
+# Translation library
+googletrans==4.0.0-rc1
+
+# Rich logging and markdown support
+rich>=14.2.0
+markdown-it-py>=4.0.0
+pygments>=2.19.2
+mdurl>=0.1.2
